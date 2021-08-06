@@ -1,4 +1,10 @@
 (()=>{
+if (!document.URL.startsWith("https://chunithm-net-eng.com/")) {
+  if (window.confirm('아시아판 츄니즘넷에서만 사용할 수 있습니다. 이동할까요?')) {
+    document.location.href = "https://chunithm-net-eng.com/";
+    return;
+  }
+}
 const e1 = $('<div>').addClass('toolBg').attr('style', 'position:fixed;top:0;z-index:9999;width:100%;height:100%;text-align:center;background-color:rgba(0,0,0,0.6);');
 const e2 = $('<div>').addClass('infoArea').attr('style', 'position:relative;top:20%;width:70%;max-width:720px;height:60%;padding:15px;text-align:left;background-color:#6bcde6;color:#fcfcfc;display:inline-block;overflow:hidden;');
 const e3 = $('<span>').addClass('infoSpan').text('Waiting for score data...');
