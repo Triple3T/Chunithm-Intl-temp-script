@@ -1,5 +1,5 @@
 # Chunithm-Intl-temp-script
-
+For English README, click [here](README.md)
 ## 레이팅 표 작성기
 주의: 이 스크립트는 12.0레벨 이상의 기록에 한해서 레이팅 표를 제공합니다.  
 주의: 템플릿을 사전에 갖고 있는 것을 추천합니다. [여기](https://gall.dcinside.com/m/cnt/8757)를 참고하세요.  
