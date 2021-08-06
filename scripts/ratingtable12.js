@@ -1,7 +1,7 @@
 (()=>{
 if (!document.URL.startsWith("https://chunithm-net-eng.com/")) {
   if (window.confirm('아시아판 츄니즘넷에서만 사용할 수 있습니다. 이동할까요?')) {
-		document.location.href = "https://chunithm-net-eng.com/";
+    document.location.href = "https://chunithm-net-eng.com/";
     return;
   }
 }
