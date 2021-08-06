@@ -2,6 +2,7 @@
 
 ## Rating Table Generator
 WARNING: This script will generate your record table, but only at level 12.0 or higher.  
+WARNING: You may want to download template. If you want, you can see download URL at [here](https://gall.dcinside.com/m/cnt/8757), with Korean description.
 1. Copy the script below.
 2. Go to Chunithm-net International version, and hit `F5`(or refresh button) to revalidate your authentication.
 3. Paste into your browser's address bar or developer tool's console.
