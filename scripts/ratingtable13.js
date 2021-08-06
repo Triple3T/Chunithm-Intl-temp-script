@@ -46,7 +46,7 @@ const g = lvs => (
 const h = g([18,19,20]);
 const l = (
   new Promise((s,j) => (
-    $.ajax({type: 'GET', url: 'https://triple3t.github.io/Chunithm-Intl-temp-script/datatables/13.json'}).done((d) => {
+    $.ajax({type: 'GET', url: 'https://triple3t.github.io/Chunithm-Intl-temp-script/datatables/13.json?'+new Date().getTime()}).done((d) => {
       s({EXPERT: Object.fromEntries(d.EXPERT.map(e=>[e.id,e.level])), MASTER: Object.fromEntries(d.MASTER.map(e=>[e.id,e.level]))});
     })
   ))
