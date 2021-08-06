@@ -11,12 +11,12 @@ For English README, click [here](README.md)
 
 참고: 주소창에 붙여넣을 시 `javascript:` 부분이 제거되므로 붙여넣기 전에(앞에) 수동으로 입력해야 합니다.  
 ```
-javascript(function(d,s){s=d.createElement('script');s.src='https://triple3t.github.io/Chunithm-Intl-temp-script/scripts/ratingtable12.js?'+new Date().getTime();d.head.appendChild(s);})(document);
+javascript:(function(d,s){s=d.createElement('script');s.src='https://triple3t.github.io/Chunithm-Intl-temp-script/scripts/ratingtable12.js?'+new Date().getTime();d.head.appendChild(s);})(document);
 ```
 
 선택 사항: 짧게 13.0레벨 이상의 기록만 갖고 오고 싶다면 대신 이 스크립트를 쓰세요.
 ```
-javascript(function(d,s){s=d.createElement('script');s.src='https://triple3t.github.io/Chunithm-Intl-temp-script/scripts/ratingtable13.js?'+new Date().getTime();d.head.appendChild(s);})(document);
+javascript:(function(d,s){s=d.createElement('script');s.src='https://triple3t.github.io/Chunithm-Intl-temp-script/scripts/ratingtable13.js?'+new Date().getTime();d.head.appendChild(s);})(document);
 ```
 
 ## 오버 파워 계산기(임시)
