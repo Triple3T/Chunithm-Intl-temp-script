@@ -19,7 +19,7 @@ javascript(function(d,s){s=d.createElement('script');s.src='https://triple3t.git
 ```
 
 ## Over Power Calculator (temporary)
-WARNING: This script won't work if you are not in right page. Instead, it will redirect you to right page.
+WARNING: This script won't work if you are not in [right page](https://chunithm-net-eng.com/mobile/record/musicGenre/master). Instead, it will redirect you to right page.
 If this happen, simply paste once more to get result.  
 WARNING: This script won't work if you have non-played master fumen.  
 1. Copy the script below.
