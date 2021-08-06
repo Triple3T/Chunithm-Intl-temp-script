@@ -1,5 +1,5 @@
 # Chunithm-Intl-temp-script
-
+한국어 설명은 [여기](README-KR.md)
 ## Rating Table Generator
 WARNING: This script will generate your record table, but only at level 12.0 or higher.  
 WARNING: You may want to download template. If you want, you can see download URL at [here](https://gall.dcinside.com/m/cnt/8757), with Korean description.
