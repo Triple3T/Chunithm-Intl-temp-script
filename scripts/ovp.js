@@ -38,6 +38,7 @@ const l = a.map(e => {
     if(!b) return a*50;
     return 125;
 });
+const i = new Intl.NumberFormat('ko-KR').format;
 const v = o.reduce(p,0) + l.reduce(p,0);
 const m = s*5+c*15;
 const n = Math.min(...a.map(e=>(e.s)));
@@ -45,6 +46,6 @@ const r = a.length!==c?'-':n>1007499?'SSS':n>999999?'SS':n>974999?'S':'-';
 const t = a.map(e=>(e.s)).reduce(p,0);
 const h = c*1010000-t;
 alert(`전곡 랭크: ${r}
-오버 파워 점유율: ${Math.floor((v+s*500)*100/m)/100}%
-깎인 총 점수: ${new Intl.NumberFormat('ko-KR').format(h)} (평균: ${new Intl.NumberFormat('ko-KR').format(h/c)})`);
+OVER POWER: ${i((v+s*500)/100)} (${Math.floor((v+s*500)*100/m)/100}%, 이론치 ${i(m)}) 
+깎인 총 점수: ${i(h)} (평균: ${i(h/c)})`);
 })();
