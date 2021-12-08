@@ -5,8 +5,8 @@ if (document.URL !== "https://chunithm-net-eng.com/mobile/record/musicGenre/mast
     return;
   }
 }
-const s = 5537.9; // sum of master fumen level
-const c = 441; // master fumen count
+const s = 5737.2; // sum of master fumen level
+const c = 457; // master fumen count
 const p = (a,b)=>(a+b);
 const a = Array.from(document.querySelectorAll('form > .musiclist_box')).map(e => {
   let a = e.querySelector('.music_title').innerText;
